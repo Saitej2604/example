@@ -151,9 +151,11 @@ class magazine(LibraryItem):
     def show_details(self):
         super().show_details()
         magazine.issue_number(self)
-b=Book('mybook',"saiteja",2021,"horror")
-b.show_details()
-mag=magazine("mybook","saiteja",2021,"4")
-mag.show_details()
+# b=Book('mybook',"saiteja",2021,"horror")
+# b.show_details()
+# mag=magazine("mybook","saiteja",2021,"4")
+# mag.show_details()
+b=Book()
+b.show_details("mybook","saiteja",2021,"horror")
 
 
